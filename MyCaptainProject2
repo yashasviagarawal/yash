@@ -1,0 +1,12 @@
+List1 = [12,11,34,-23,19,-67]###Assigning elements in list
+tuple1 = ("home",[19,15,11],(1,2,3))###Tuple created
+dict1 = {1:"yash",2:"ayush",3:"varin",4:"yuvakshi"}###Dictionary created
+
+delete = [key for key in dict1 if key == 1]
+for key in delete:
+    del dict1[key]###element deleted from dictionary
+    
+print(dict1)
+print(tuple1[0],[2])###elements accessed in a tuple
+
+
